@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Life from './page/demo/Life';
-import Admin from './admin'
 import Router from './router'
-import Home from './page/router_demo/route1/Home';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Router />, document.getElementById('root'));

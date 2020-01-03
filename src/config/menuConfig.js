@@ -37,7 +37,7 @@ const menuList = [
 			},
 			{
 				title: '轮播图',
-				key: '/ui/carousel',
+				key: '/admin/ui/carousel',
 			}
 		]
 	},
@@ -47,11 +47,11 @@ const menuList = [
 		children: [
 			{
 				title: '登录',
-				key: '/form/login',
+				key: '/admin/form/login',
 			},
 			{
 				title: '注册',
-				key: '/form/reg',
+				key: '/admin/form/reg',
 			}
 		]
 	},
@@ -75,11 +75,11 @@ const menuList = [
 	},
 	{
 		title: '城市管理',
-		key: '/city'
+		key: '/admin/city'
 	},
 	{
 		title: '订单管理',
-		key: '/order',
+		key: '/admin/order',
 		btnList: [
 			{
 				title: '订单详情',
